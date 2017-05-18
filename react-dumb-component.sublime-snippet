@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import styles from './$1.css';
 
 const ${1:MyComponent} = props => (
-	<div className={styles.container}>{$1}</div>
+	<div className={styles.container}>$1</div>
 );
 
 $1.propTypes = {};

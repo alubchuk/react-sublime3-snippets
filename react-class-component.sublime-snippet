@@ -10,7 +10,7 @@ export default class ${1:MyComponent} extends Component {
 
 	render() {
 		return (
-			<div className={styles.container}>{$1}</div>
+			<div className={styles.container}>$1</div>
 		);
 	}
 }
