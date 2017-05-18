@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import styles from './$1.css';
+import { connect } from 'react-redux';
+
+class ${1:MyComponent} extends Component {
+	static propTypes = {};
+	static defaultProps = {};
+
+	render() {
+		return (
+			<div className={styles.container}>{$1}</div>
+		);
+	}
+}
+
+const mapStateToProps = store => ({});
+
+export default $1;
+export const $1Container = connect(mapStateToProps, {})($1);
+
+]]></content>
+	<tabTrigger>rsc</tabTrigger>
+	<scope>source.js</scope>
+	<scope>source.jsx</scope>
+	<description>React Smart Component</description>
+</snippet>

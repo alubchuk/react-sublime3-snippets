@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+import styles from './$1.css';
+
+const ${1:MyComponent} = props => (
+	<div className={styles.container}>{$1}</div>
+);
+
+$1.propTypes = {};
+$1.defaultProps = {};
+
+export default $1;
+
+]]></content>
+	<tabTrigger>rdc</tabTrigger>
+	<scope>source.js</scope>
+	<scope>source.jsx</scope>
+	<description>React Dumb Component</description>
+</snippet>

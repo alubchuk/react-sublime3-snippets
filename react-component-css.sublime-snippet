@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.container {
+	display: flex;
+}
+
+]]></content>
+	<tabTrigger>rcss</tabTrigger>
+	<scope>source.css</scope>
+	<description>React Component CSS File</description>
+</snippet>

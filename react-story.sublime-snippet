@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import ${1:MyComponent} from './$1';
+import {storiesOf, action} from '@kadira/storybook';
+
+storiesOf('$1', module)
+  .add('Default view of the $1', () => (
+		<$1 />
+  ));
+
+]]></content>
+	
+	<tabTrigger>rs</tabTrigger>
+	<scope>source.js</scope>
+	<scope>source.jsx</scope>
+	<description>React Story</description>
+</snippet>
